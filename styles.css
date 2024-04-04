@@ -268,21 +268,25 @@ body {
     text-align: center;
 }
 .timspic{
-    padding-left:10%;
-    width: 5000px;
-    height: 300px;
+position: absolute;
+        width: 100%;
+        height: auto;
+      left: 10px;
+
 }
 .photos{
     position: relative;
-    color: wheat;
-    margin-bottom: 40px;
-    padding: 40px;
+    margin: 30px;     
+    padding: 4px;
+    
 }
 .captioned{
-    top: 90%;
-    left: 0.2%;
-    font-size: smaller;
+ 
+    position: absolute;
+    top: 10%;
     
+    padding: 1px;
+    font-size: smaller;
 }
 
     
