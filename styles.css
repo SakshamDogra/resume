@@ -1,0 +1,312 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 30px;
+}
+
+.navbar {
+    margin: 12px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    scroll-behavior: smooth;
+}
+
+.navbar li {
+    margin: 20px;
+    padding: 3px 3px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul {
+    overflow: auto;
+
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    font-size: large;
+    color: antiquewhite;
+    text-decoration: none;
+    scroll-behavior: smooth;
+
+}
+
+.navbar li:hover {
+    border-radius: 40px;
+    opacity: 0.4;
+
+}
+
+.maincontent {
+    color: wheat;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    gap: 100px;
+
+
+}
+
+.right {
+    color: rgb(233, 205, 153);
+    font-size: larger;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    font-family: monospace;
+}
+
+.container {
+
+    margin: 30px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.back-video {
+    position: fixed;
+
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.allcards {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 100px;
+
+}
+
+.allcards .card {
+    background-color: rgba(0, 0, 0, 0.488);
+
+    color: rgb(190, 187, 187)
+}
+
+.card {
+    align-items: center;
+    width: 18rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 12px;
+
+
+}
+
+.card #ones {
+    text-decoration: none;
+    color: bisque;
+}
+
+.card:hover {
+    background-color: rgba(40, 40, 40, 0.227);
+
+}
+
+.card #ones:hover {
+    opacity: 0.7;
+
+}
+
+.skillsets {
+
+    background-color: rgba(0, 0, 0, 0.633);
+    margin: 24px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.skillcard {
+    display: flex;
+    margin: 0px;
+    padding: 30px;
+    gap: 100px;
+}
+
+.headskill {
+    font-size:large;
+    font-family:'Times New Roman', Times, serif;
+    color: darkgrey;
+}
+
+.card-texts {
+    color: red;
+}
+
+.badges {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+:root {
+    color-scheme: dark;
+}
+
+.expos{
+    background-color: rgba(20, 19, 19, 0.934);
+    color:darkgrey;
+    margin: 60px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.timspic{
+    left: 250px;
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+}
+.photos{
+    position: relative;
+    color: wheat;
+    margin: 30px;     
+    padding: 4px;
+}
+.captioned{
+    position: absolute;
+    top: 160%;
+    
+    padding: 250px;
+    font-size: larger;
+}
+
+
+
+
+
+
+/*for the responsiveness*/
+@media only screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .container {
+        margin: 10px;
+    }
+
+    .right {
+        margin-top: 20px;
+    }
+
+    .maincontent {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+
+
+    .skillcard {
+        flex-direction: column;
+        align-items: center;
+        overflow: none;
+        margin: 3px;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .allcards {
+        flex-direction: column;
+        align-items: center;
+        overflow: none;
+        margin: 3px;
+        padding: 10px;
+        gap: 5px;
+
+    }
+    .headskill{
+     font-size: medium;
+    }
+    
+   .timspic{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    right: 20px;
+
+   }
+   .captioned{
+    position: relative;
+    font-size: smaller;
+    margin-top: 60px;
+    text-align: center;
+    margin-top:200px;
+    justify-content: center
+    
+;
+}.expos{
+    background-color: rgba(20, 19, 19, 0.934);
+    color:darkgrey;
+    margin: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.timspic{
+    padding-left:10%;
+    width: 5000px;
+    height: 300px;
+}
+.photos{
+    position: relative;
+    color: wheat;
+    margin-bottom: 40px;
+    padding: 40px;
+}
+.captioned{
+    top: 90%;
+    left: 0.2%;
+    font-size: smaller;
+    
+}
+
+    
+   
+}
+
+
+
+        /*for the background video*/
+        @media(min-aspect-ratio: 16/9) {
+            .back-video {
+                width: 100%;
+                height: auto;
+            }
+
+
+        }
+
+        /*for the background video*/
+
+        @media(max-aspect-ratio: 16/9) {
+            .back-video {
+                width: auto;
+                height: 100%;
+
+            }
+        }

@@ -1,8 +1,17 @@
 
-gsap.from('.maincontent',{duration: 1,y: '100%',ease: 'bounce', delay :0.9})
+
+gsap.from('.maincontent',{duration: 1,opacity:0.1,y: '100%',ease: 'bounce', delay :0.9})
 
 gsap.from('.navbar',{duration: 1, opacity: 0, delay: 2, stagger: .5})
 gsap.from('.right',{duration: 1, opacity: 0,ease:'power2.in', delay: 3, stagger: 1.5})
+gsap.from('.allcards',{duration: 3, opacity: 0, delay: 4})
+//gsap.from('.skillsets',{duration: 3, opacity: 0, delay: 1})
+
+gsap.from('.skillsets',{duration: 6, opacity: 0, delay: 2})
+gsap.from(".skillpart",{duration: 7,ease:'expo.out', y: -100,opacity:0,delay:3})
+
+
+// add the tweens to the timeline - Note we're using tl.to not gsap.to
 
 /*
 gsap.from('.right',{duration: 2, x: '-100vw', delay: 1, ease: 'power2.in'})

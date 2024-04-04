@@ -4,119 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mr. Dogra</title>
-   
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="script.js" defer></script>
 
-    <style>
-        body {
-            margin: 30px;
-        }
-
-        .navbar {
-            margin: 12px;
-            display: flex;
-            justify-content: space-around;
-            border-radius: 30px;
-        }
-
-        .navbar li {
-            margin: 20px;
-            padding: 3px 3px;
-            list-style: none;
-            font-family: 'Times New Roman', Times, serif;
-        }
-
-        .navbar ul {
-            overflow: auto;
-
-        }
-
-        .navbar li a {
-            padding: 3px 3px;
-            font-size: large;
-            color: antiquewhite;
-            text-decoration: none;
-
-        }
-
-        .navbar li:hover {
-            border-radius: 40px;
-            opacity: 0.4;
-
-        }
-
-        .maincontent {
-            color: wheat;
-            font-size: larger;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding-bottom: 40px;
+<link rel="stylesheet" href="styles.css" >       
 
 
-        }
-
-        .right {
-            color: rgb(233, 205, 153);
-            font-size: larger;
-            align-items: center;
-            margin-top: 50px;
-          justify-content: center;      
-          font-family:monospace;
-        }
-
-        .container {
-            
-            margin: 30px;
-            flex-direction: column;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-
-
-        }
-
-        .back-video {
-            position: fixed;
-
-            right: 0;
-            bottom: 0;
-            z-index: -1;
-        }
-        .cardcontainer{
-           
-        }
-
-        @media(min-aspect-ratio: 16/9) {
-            .back-video {
-                width: 100%;
-                height: auto;
-            }
-        }
-
-        @media(max-aspect-ratio: 16/9) {
-            .back-video {
-                width: auto;
-                height: 100%;
-            }
-        }
-        
-
-    </style>
     
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
 </head>
 
-<bo
-dy>
+<body>
 
     <header>
         <nav class="navbar">
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Certifications</a></li>
+            <li><a href="#allcards">Projects</a></li>
+            <li><a href="#skillsets">Skills</a></li>
+            <li><a href="#expos">Experiences</a></li>
 
 
         </nav>
@@ -125,11 +40,13 @@ dy>
     <div class="container">
 
         <div class="maincontent">
+            <div class="fname">
 
-            S &nbsp; A &nbsp; K &nbsp; S &nbsp; H &nbsp; A &nbsp; M
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; D &nbsp;O &nbsp; G &nbsp; R &nbsp; A
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;
-
+                S &nbsp; A &nbsp; K &nbsp; S &nbsp; H &nbsp; A &nbsp; M
+            </div>
+            <div class="lname"> D &nbsp;O &nbsp; G &nbsp; R &nbsp; A
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;
+            </div>
         </div>
         <div class="right ">
             Floating on this Boat called "Life", with my two rowers i.e. CODING & VIDEO EDITING. Graduated through
@@ -137,15 +54,123 @@ dy>
             <br>
             <br>
             <br>
-                PASSION TURNED OBSESSION<br><br>FACTOR TUNED CHARACTER<br><br>
-            
+            OBSESSION TURNED PASSION <br><br>REAL FACTOR TUNED CHARACTER<br><br>
+
         </div>
-        
+
     </div>
     <div class="dopevid">
         <video autoplay loop muted plays-inline class="back-video">
             <source src="./bgvid.mp4" type="video/mp4" </video>
     </div>
 
+    <div class="allcards" id="allcards">
+        <div class="card">
+            <div class="card-body">
+
+                <span class="badge text-bg-secondary" id="badges">HTML</span>&nbsp;&nbsp;&nbsp;
+                <span class="badge text-bg-secondary" id="badges">CSS</span>&nbsp;&nbsp;&nbsp;
+                <span class="badge text-bg-secondary" id="badges">JAVASCRIPT</span>&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+
+                <h5 class="card-title">Residue</h5>
+                <p class="card-text">Impeccable music player.</p>
+                <a id="ones" href="#" class="button">Stream</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <span class="badge text-bg-secondary" id="badges">HTML</span>&nbsp;&nbsp;&nbsp;
+                <span class="badge text-bg-secondary" id="badges">CSS</span>&nbsp;&nbsp;&nbsp;
+                <span class="badge text-bg-secondary" id="badges">JAVASCRIPT</span>&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+                <h5 class="card-title">Tappered</h5>
+                <p class="card-text">Online Shopping Store.</p>
+                <a id="ones" href="#" class="button">Shop</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <span class="badge text-bg-secondary" id="badges">HTML</span>&nbsp;&nbsp;&nbsp;
+                <span class="badge text-bg-secondary" id="badges">CSS</span>&nbsp;&nbsp;&nbsp;
+                <span class="badge text-bg-secondary" id="badges">JAVASCRIPT</span>&nbsp;&nbsp;&nbsp;
+                <br>
+                <br>
+                <h5 class="card-title">Ironed</h5>
+                <p class="card-text">Fitness Info with free workout plans and diets.</p>
+                <a id="ones" href="#" class="button">Work out</a>
+            </div>
+        </div>
+    </div>
+    <div class="skillsets" id="skillsets">
+        <span class="headskill">S&nbsp;&nbsp;&nbsp;&nbsp;K&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;&nbsp;T</span>
+        <div class="skillcard" id="skillcard">
+
+            <div class="skillpart">
+                <div class="skillbox">
+                    <h5 class="card-title">JAVASCRIPT</h5>
+                    <p class="card-texts">Proficiently</p>
+
+
+                </div>
+
+            </div>
+            <div class="skillpart">
+                <div class="skillbox">
+                    <h5 class="card-title">HTML</h5>
+                    <p class="card-texts">Proficiently</p>
+
+                </div>
+            </div>
+            <div class="skillpart">
+                <div class="skillbox">
+                    <h5 class="card-title">CSS</h5>
+                    <p class="card-texts">Proficiently</p>
+
+                </div>
+            </div>
+            <div class="skillpart">
+                <div class="skillbox">
+                    <h5 class="card-title">DJANGO</h5>
+                    <p class="card-texts">Proficiently</p>
+
+                </div>
+            </div>
+            <div class="skillpart">
+                <div class="skillbox">
+                    <h5 class="card-title">REACT</h5>
+                    <p class="card-texts">Proficiently</p>
+
+                </div>
+            </div>
+            <div class="skillpart">
+                <div class="skillbox">
+                    <h5 class="card-title">MySQL</h5>
+                    <p class="card-texts">Proficiently</p>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="photos">
+    <div class="expos" id="expos">
+        E&nbsp;&nbsp;&nbsp;X&nbsp;&nbsp;&nbsp;P&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;N&nbsp;&nbsp;&nbsp;C&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;S
+</div>
+<img class="timspic" src="timpic.jpg" content>
+<div class="captioned">
+    I worked at the fastest food and beverage restaurant chain in Canada, i.e. Tim Hortons as a supervisor for 3 years. My primary task was to be the cashier and handle a well-trained team to strive for more work to be done. Always well praised, always super energetic for the hardest times. Learned a whole lot about all the hardships we can face in primary customer service. 
+</div>
+</div>
 </body>
+
 </html>
