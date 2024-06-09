@@ -1,4 +1,4 @@
-
+/*
 
 gsap.from('.maincontent',{duration: 1,opacity:0.1,y: '100%',ease: 'bounce', delay :0.9})
 

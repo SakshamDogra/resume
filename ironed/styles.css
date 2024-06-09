@@ -1,0 +1,252 @@
+
+#title{
+    color: rgb(226, 215, 215);
+    text-align: center;
+
+    font-weight: bold;
+
+}
+#underline{
+    text-decoration: none;
+
+}
+#atag{
+    text-decoration: none;
+    color: whitesmoke;
+    color: whitesmoke;
+    float: left;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+#atag2{
+    text-decoration: none;
+    color: gray;
+
+}
+body{
+    
+        background-image: url(photo.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+    
+    
+    
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.full{
+    padding: 100px;
+}
+table, th, td {
+    border: 1px solid rgb(49, 44, 44);
+}
+th, td {
+    color: rgb(255, 248, 248);
+    padding: 8px;
+    text-align: left;
+
+}
+th {
+    background-color: #625c5c;
+}
+.navbar li{
+    color: whitesmoke;
+    float: left;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+}
+#photosall{
+    opacity: 95%;
+    margin-left: 10%;
+    height: 650px;
+    width: 80%;
+    border-radius:50px;
+    
+}
+.muscle{
+    color: rgb(248, 226, 226);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    font-size: medium;
+}
+#punch{
+    text-align: center;
+    color: rgb(194, 193, 193);
+  
+}
+.punchline{
+    margin-bottom:60px;
+    font-size: small;
+    font-weight: bolder;
+    color: rgb(167, 166, 166);
+    background-color: gray;
+    
+}
+#logo{
+    
+    position: relative;
+
+    height: 100px;
+}
+
+
+.one{
+    color: yellow;
+    text-align: center;
+    
+}
+#calc{
+    color: yellow;
+
+}
+.content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 130%;
+    color: white;
+    text-align: center;
+    margin: 3%;
+    margin-left: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.content2{
+    color: white;
+    margin: 1%;
+    font-size: 100%;
+    margin-left:350px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#choose{
+    text-decoration: none;
+    color: rgb(232, 227, 227);
+    font-weight: 900;
+    font-size: 130%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-block-end: 60px;
+}
+.subhead{
+    text-decoration: none;
+    color: rgb(232, 227, 227);
+    font-weight: 900;
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    margin-left:400px;
+    margin-top: 40px;
+}
+#choose:hover{
+    color:cornsilk;
+    font-weight: 600;
+}
+#load{
+    margin: 40px;
+    margin-left: 700px;
+    color: white;
+ font-weight: 300;
+ font-size: medium;   
+    text-align: center;
+}
+.allworkouts{
+    padding: 30px;
+    display: flexbox;
+
+}
+
+#arrows{
+    height: 100px;
+    position: absolute;
+    margin-top: 2cm;
+    margin-left: 13cm;
+    opacity: 0.5;
+    
+    
+}
+#line{
+    height: 110px;
+    position: absolute;
+    margin-top: 1.7cm;
+    margin-left: 12.4cm;
+    opacity: 0.7;
+    
+
+
+}
+#img1{
+    width: 600px;
+    height: 900px;
+}
+#img2{
+    width: 600px;
+    height: 900px;
+    margin-left: 550px;
+
+
+}
+#img3{
+    
+    width: 1300px;
+    height: 800px;
+
+
+}
+#img1text{
+    display: flex;
+    position: absolute;
+    color:whitesmoke;
+        font-weight: bold;
+    font-size:xx-large;
+    margin-left:150px;
+    margin-top: 30px;
+    font-family:sans-serif;    
+
+    
+}
+#img2text{
+    color: wheat;
+    margin-left:10px;
+    position: absolute;
+    margin-top: 40px;
+    font-weight:bolder; 
+    font-size: xx-large;  
+    font-family:sans-serif;    
+}
+#img3text{
+    position: absolute;
+    margin-top: 40px;
+    font-weight:bolder; 
+    font-size: xx-large;  
+    font-family:sans-serif;   
+    margin-left: 10px;
+}
+.workouts{
+    float: left;
+    height: 80px;
+    width: 10px;
+    display: flexbox;
+
+}
+#foot{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: gray;
+    font-size: small;
+}

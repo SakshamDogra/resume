@@ -12,6 +12,7 @@ body {
     justify-content: space-around;
     border-radius: 30px;
     scroll-behavior: smooth;
+    
 }
 
 .navbar li {
@@ -19,6 +20,7 @@ body {
     padding: 3px 3px;
     list-style: none;
     font-family: 'Times New Roman', Times, serif;
+    align-items: center;
 }
 
 .navbar ul {
@@ -109,6 +111,7 @@ body {
 .card #ones {
     text-decoration: none;
     color: bisque;
+
 }
 
 .card:hover {
@@ -119,6 +122,11 @@ body {
 .card #ones:hover {
     opacity: 0.7;
 
+}
+#atag3{
+    text-decoration: none;
+    color: rgb(190, 187, 187);
+    
 }
 
 .skillsets {
@@ -147,12 +155,10 @@ body {
     color: darkgrey;
 }
 
-.card-texts {
-    color: red;
-}
-
-.badges {
-    font-family: Georgia, 'Times New Roman', Times, serif
+.badges{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    color: 
 }
 
 :root {
@@ -176,7 +182,7 @@ body {
 }
 .photos{
     position: relative;
-    color: wheat;
+    color: white;
     margin: 30px;     
     padding: 4px;
 }
@@ -186,6 +192,9 @@ body {
     
     padding: 250px;
     font-size: larger;
+}
+.card-titles{
+    color: red;
 }
 
 
@@ -249,6 +258,7 @@ body {
     right: 20px;
 
    }
+
    .captioned{
     position: relative;
     font-size: smaller;
@@ -284,7 +294,6 @@ position: absolute;
  
     position: absolute;
     top: 10%;
-    
     padding: 1px;
     font-size: smaller;
 }
