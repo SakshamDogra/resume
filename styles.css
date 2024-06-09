@@ -111,7 +111,6 @@ body {
 .card #ones {
     text-decoration: none;
     color: bisque;
-
 }
 
 .card:hover {
@@ -158,7 +157,7 @@ body {
 .badges{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight:bolder;
-    color: 
+    
 }
 
 :root {
