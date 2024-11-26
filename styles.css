@@ -179,6 +179,27 @@ body {
     width: 1000px;
     height: 700px;
 }
+.banker{
+    margin-top:800px;
+    position: inherit;
+    left: 250px;
+    width: 1000px;
+    height: 800px;
+}
+
+.captained{
+    top: 90%;
+    position: absolute;
+    left: 260px;
+    color: black;
+    display: block;
+    justify-content:center;
+    font-style: bold;
+    font-size: larger;
+}
+
+
+
 .photos{
     position: relative;
     color: white;
@@ -187,7 +208,9 @@ body {
 }
 .captioned{
     position: absolute;
+
     top: 160%;
+    display: flexbox;
     
     padding: 250px;
     font-size: larger;
@@ -283,6 +306,14 @@ position: absolute;
       left: 10px;
 
 }
+
+.banker{
+    position: absolute;
+            width: 100%;
+            height: auto;
+          left: 10px;
+    
+    }
 .photos{
     position: relative;
     margin: 30px;     
